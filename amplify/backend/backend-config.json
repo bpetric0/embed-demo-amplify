@@ -1,0 +1,9 @@
+{
+  "function": {
+    "embeddemoamplifye947ef82": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}
