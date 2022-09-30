@@ -16,6 +16,7 @@ frontend:
     preBuild:
       commands:
         - nvm use $VERSION_NODE_14
+        - npm install -g aws-cdk
         - npm install
     build:    
       commands:          
