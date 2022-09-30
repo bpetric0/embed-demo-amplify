@@ -11,7 +11,7 @@ backend:
         - amplify --version
         - node -v
         - npm install -g aws-cdk
-        - npm install
+        - npm install -g
         - amplifyPush --simple
 frontend:
   phases:
