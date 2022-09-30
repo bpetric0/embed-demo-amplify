@@ -10,6 +10,8 @@ backend:
         - '# Execute Amplify CLI with the helper script'
         - amplify --version
         - node -v
+        - npm install -g aws-cdk
+        - npm install
         - amplifyPush --simple
 frontend:
   phases:
