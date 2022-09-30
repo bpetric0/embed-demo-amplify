@@ -11,7 +11,8 @@ backend:
         - amplify --version
         - node -v
         - npm install -g aws-cdk
-        - npm install -g
+        - npm install
+        - cd ./amplify/backend/custom/customResource52b8df88 && npm install
         - amplifyPush --simple
 frontend:
   phases:
